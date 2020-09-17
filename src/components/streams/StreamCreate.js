@@ -5,8 +5,6 @@ import { createStream } from '../../actions';
 
 class StreamCreate extends React.Component {
   onSubmit = (formValues) => {
-    console.log('props', this.props);
-    console.log('formValues', formValues);
     this.props.createStream(formValues);
   };
 
